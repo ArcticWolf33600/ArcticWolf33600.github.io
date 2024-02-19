@@ -1,24 +1,35 @@
-body{
-    background-color: rgb(167, 174, 174);
+body {
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
     font-family: "Montserrat", sans-serif;
 }
 
-h1{
+h1 {
     text-align: center;
 }
-h2{
-    margin-left: 20%;
+
+h2 {
+
+    text-align: center;
     margin-top: 5%;
+    font-size: 500%;
 }
-.section{
+
+h3 {
+    font-size: 200%;
+}
+
+.section {
     text-align: center;
     background-color: beige;
     margin: 5%;
-    padding-top: 2%; 
+    padding-top: 2%;
     padding-bottom: 2%;
+    font-size: 150%;
 }
 
-#photoId{
-    text-align: center;
+#photoId {
+    padding-right: 25%;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
