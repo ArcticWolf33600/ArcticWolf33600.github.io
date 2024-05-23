@@ -9,7 +9,6 @@ h1 {
 }
 
 h2 {
-
     text-align: center;
     margin-top: 5%;
     font-size: 500%;
@@ -21,16 +20,21 @@ h3 {
 
 .section {
     text-align: center;
-    background-color: rgba(245, 245, 220,0.9);
+    background-color: rgba(245, 245, 220, 0.9);
     margin: 10%;
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 100%;
 }
 
-
 #photoId {
     padding-right: 25%;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
